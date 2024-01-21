@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+*{
+    padding: 0;
+    margin:0;
+}
+
+.body{
+    background: url("../img/bg.jpg"); 
+    background-size:100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+#board{
+
+    background:linear-gradient(rgb(154, 234, 154),rgb(228, 228, 83));
+    width: 50vmin;
+    height: 50vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    grid-template-rows: repeat(18,1fr);
+
+
+}
+
+.head{
+    background: linear-gradient(red, yellow);
+    border : 2px solid purple;
+    border-radius: 9px;
+    transform: scale(1.2);
+
+}
+
+.snake{
+    background-color: purple;
+    border: .25vmin solid white;
+    border-radius: 12px;
+}
+
+.food{
+    background: linear-gradient(red,purple);
+    border: .25vmin solid black;
+    border-radius: 8px;
+}
+
+#scoreBox{
+    position:absolute;
+    top:9px;
+    right: 200px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+}
+
+#hiScoreBox{
+    position:absolute;
+    top:40px;
+    right: 200px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+
+}
+
+#sastaBlogger{
+    position:absolute;
+    top:102px;
+    right: 64vmin;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+}
